@@ -751,7 +751,7 @@ iframe{
 }
 
 @media (max-width: 390px) {
-    ..title-3{
+    .title-3{
         font-size:1.3rem
     }
 
@@ -769,7 +769,7 @@ iframe{
     }
 
     .banner-img{
-        zoom: 0.7;
+        zoom: 1;
     }
     
 }
