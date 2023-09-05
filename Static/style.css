@@ -751,13 +751,16 @@ iframe{
 }
 
 @media (max-width: 390px) {
+    ..title-3{
+        font-size:1.3rem
+    }
 
     .hamburger-menu {
         /* right: 140px; */
     }
 
     .logo-name{
-        margin-left: 1em;
+        margin-left: 0.5em;
         
     }
 
