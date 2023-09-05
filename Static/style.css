@@ -751,9 +751,9 @@ iframe{
 }
 
 @media (max-width: 390px) {
-    .title-3{
+/*     .title-3{
         font-size:1.3rem
-    }
+    } */
 
     .hamburger-menu {
         /* right: 140px; */
@@ -771,5 +771,9 @@ iframe{
     .banner-img{
         zoom: 1;
     }
+
+    .jour-title{
+        font-size:1.4rem
+    } 
     
 }
