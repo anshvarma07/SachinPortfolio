@@ -647,6 +647,9 @@ iframe{
     #typed-text {
         font-size: 2.2rem;
     }
+    .banner{
+        margin-top:100px;
+    }
 
 
     .description {
