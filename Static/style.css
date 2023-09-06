@@ -46,11 +46,12 @@ nav {
 .logo-name {
     margin-top: 25px;
     margin-right: 4em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Modern Antiqua';
     font-weight: bolder;
     letter-spacing: 3px;
     font-size: 2rem;
     margin-left: 3.7em;
+
 }
 
 .hamburger-menu {
@@ -255,7 +256,7 @@ nav {
 }
 
 .skill-desc2 {
-    width: 60%;
+    width: 90%;
     display: block;
     margin: auto;
 }
@@ -278,7 +279,7 @@ nav {
 /* Journey */
 
 .circle-blur {
-    height: 40rem;
+    height: 30rem;
     width: 40rem;
     /* border: 2px solid red; */
     background: #8000FF;
@@ -295,7 +296,7 @@ iframe{
 
 .circle-blur2 {
     height: 10rem;
-    width: 40rem;
+    width: 30rem;
     /* border: 2px solid red; */
     background: #5BAFFF;
     filter: blur(200px);
@@ -334,15 +335,15 @@ iframe{
 }
 
 .Proj>iframe {
-    margin: 40px 40px 15px 40px;
+    /* margin: 40px 40px 15px 40px; */
     height: 400px;
     width: 30vw;
-    border: 20px;
+    /* border: 20px; */
     box-shadow: 0 0 20px rgba(0, 0, 0, 1),
         0 0 40px rgba(0, 0, 0, 1),
         0 0 60px rgba(0, 0, 0, 1);
     border-radius: 10px;
-    position: relative;
+    /* position: relative; */
     z-index: 190;
 }
 .image-container{
@@ -519,7 +520,8 @@ iframe{
     }
 
     .scrolled{
-        /* border-bottom: 0.1px solid white; */
+        border-bottom: 0.001px dotted gray;
+        border-top: 0.001px dotted gray;
     }
 
     .resp {
@@ -590,19 +592,18 @@ iframe{
     }
 
     .Proj>iframe {
-        width: 60vw;
+        width: 90vw;
     }
 }
 
 @media (max-width: 1000px) {
     .carousel-item {
-        padding: 50px;
+        padding: 0 50px;
     }
 
 
 .circle-blur,.circle-blur2{
-    height: 1500px;
-    height: 200rem;
+    height: 180rem;
     width: 5rem;
 }
 
@@ -690,15 +691,15 @@ iframe{
 
 
 .skill-head {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 }
 
 @media (max-width: 470px) {
     .banner {
-        margin-left: 2.2rem;
-        margin-top: 140px;
+        margin-left: 1rem;
+        margin-top: 90px;
     }
 
     .welcome {
@@ -759,12 +760,8 @@ iframe{
         font-size:1.8rem
     }
 
-    .hamburger-menu {
-        /* right: 140px; */
-    }
-
     .logo-name{
-        margin-left: 0.5em;
+        margin-left: 3em;
         
     }
 
@@ -777,7 +774,20 @@ iframe{
     }
 
     .jour-title{
-        font-size:2rem
-    } 
+        font-size:2.5rem;
+        padding-top: 90px;
+    }
+
+    nav{
+        align-content: center;
+    }
+
+    .skill-desc2{
+        font-size: 10px;
+    }
+
+    /* .carousel-item {
+        padding: 0px 20rem 00px 20rem;
+    } */
     
 }
