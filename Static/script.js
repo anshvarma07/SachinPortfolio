@@ -4,11 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const two = document.querySelector(".lets-connect");
     const three = document.querySelector(".head-ul");
     const proj = document.querySelector(".ProjHover");
+    const navbar = document.querySelector('.nav');
   
     hamburgerMenu.addEventListener("click", function () {
       navUl.classList.toggle("nav-open");
       two.classList.toggle("nav-open");
       three.classList.toggle("nav-open");
+      navbar.classList.toggle("scrolled");
     });
   });
 
